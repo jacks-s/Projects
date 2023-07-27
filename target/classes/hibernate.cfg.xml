@@ -10,6 +10,9 @@
 		<property name="connection.password">root</property>
 		<property name="hbm2ddl.auto">update</property>   <!-- 'update' means table not present then it will create -->
 		<property name="show_sql">true</property>
+		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
+			
+			<property name="defer-datasource-initialization"> true</property>
 		
 		<mapping class="com.myCafe.DTO.foodOrder" />
 	

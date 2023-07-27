@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>pls wait...</title>
 <style type="text/css">
 body{
 hieght:600px;
@@ -40,7 +40,7 @@ border-color: red;
 
 </head>
 <body>
-    <form action="processOrder">
+    <form action="processOrder" method=post>
     
     <div align="center">
       
